@@ -12,7 +12,7 @@ echo -n 'SUP3RST0NGP@ssW04D' | base64
 ```
 Copy the output into `secret_mysql.yml` at `MYSQL_ROOT_PASSWORD`.  
 
-Check the Ports in `service_mysql.yml` to adjust them as you need it.  
+Check the ports in `service_mysql.yml` to adjust them as you need it.  
 Edit the resources spec in `deployment_fivem.yml` acording to your cluster.  
 Edit also `pvc_mysql.yml` acording to your clusters storage system.
 
